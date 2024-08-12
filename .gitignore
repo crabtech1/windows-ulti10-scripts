@@ -1,1 +1,94 @@
 
+# Ignore log files and databases
+*.log
+*.sqlite
+
+# Ignore temporary files and folders
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+*.swn
+*.sws
+*.DS_Store
+
+# Ignore compiled executables and object files
+*.exe
+*.o
+*.obj
+*.dll
+*.lib
+*.out
+*.so
+
+# Ignore Python cache and environment files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+ENV/
+ENV.bak/
+venv.bak/
+
+# Ignore node modules
+node_modules/
+
+# Ignore any files related to virtual environments
+.vscode/
+.idea/
+
+# Ignore build directories and artifacts
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Ignore coverage reports
+coverage/
+*.cover
+*.coverage
+*.coveragerc
+.cache
+
+# Ignore configuration files
+*.config
+*.cfg
+*.ini
+*.prefs
+
+# Ignore secrets and private keys
+*.pem
+*.key
+*.crt
+*.der
+
+# Ignore specific script outputs
+output/
+results/
+
+# Ignore documentation files
+docs/
+
+# Ignore system files
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# Ignore backup files
+*.bak
+*.old
+
+# Ignore any other potentially large or sensitive files
+*.iso
+*.zip
+*.tar.gz
+*.7z
+
+# Ignore specific script files
+*.ps1
+*.md
+*.bat
